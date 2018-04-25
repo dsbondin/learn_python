@@ -27,3 +27,8 @@ print(array) # ['aa', 'a', 'd', 'e', 'f']
 
 array += ['g', 'h']
 print(array) # ['aa', 'a', 'd', 'e', 'f', 'g', 'h']
+print(len(array), min(array), max(array)) # (7, 'a', 'h')
+
+pi_tuple = (3, 1, 4, 1, 5, 9, 2, 6)
+pi_tuple.append(1) # error - tuples are immutable
+pi_tuple[0] = 33 # error - tuples are immutable
